@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageViewContentModeHelper_Example' do
+  pod 'ImageViewContentModeHelper', :path => '../'
+
+  target 'ImageViewContentModeHelper_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

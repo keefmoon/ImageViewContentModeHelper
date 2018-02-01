@@ -1,0 +1,6 @@
+framework module ImageViewContentModeHelper {
+  umbrella header "ImageViewContentModeHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

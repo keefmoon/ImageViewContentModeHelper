@@ -1,0 +1,6 @@
+framework module Pods_ImageViewContentModeHelper_Tests {
+  umbrella header "Pods-ImageViewContentModeHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
